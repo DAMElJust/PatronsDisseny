@@ -8,3 +8,6 @@ Disposeu d'un document on es parla de qualitat de programari i els principis SOL
 
 Si voleu ampliar coneixements sobre patrons de disseny, la web de [Refactoring Guru](https://refactoring.guru/es) conté moltíssima informació al respecte!
 
+* [Document sobre patrons de disseny en pdf](PatronsDisseny.pdf)
+* [Document sobre patrons de disseny en Markdown](PatronsDisseny.md)
+* [Exercicis](Exercicis/)

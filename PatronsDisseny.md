@@ -24,12 +24,12 @@ Els patrons podem agrupar-los en tres grans famílias:
 
 No veurem tots els patrons, però és interessant saber reconéixer-los quan estiguem desenvolupant aplicacions. Patrons com *Builder*, *Decorator*, *Adapter*, *Iterator* o *Singleton* són presents en moltes solucions o estrategis de programació que veureu al llarg del mòdul.
 
-::: tip
-**Sobre patrons de disseny**
-
-* Enllaç a *refactoring Guru*, lloc web sobre diversos aspectes relatius a la qualitat del programari:
-[https://refactoring.guru/es/design-patterns](https://refactoring.guru/es/design-patterns)
-:::
+>
+> **Sobre patrons de disseny**
+>
+> * Enllaç a *refactoring Guru*, lloc web sobre diversos aspectes relatius a la qualitat del programari:
+> [https://refactoring.guru/es/design-patterns](https://refactoring.guru/es/design-patterns)
+>
 
 ## Els principis SOLID
 
@@ -60,12 +60,12 @@ SOLID és un acrònim que resumeix aquests principis per a un programari de qual
 * **I**: *Interface Segregation Principle* o principi de Segregació de la interfície: *Una classe que implemente una interfície hauria d'utilitzar tota la seua funcionalitat*. Si només utilitza una part d'aquesta, hauríem de segregar aqueixa interfície en diverses interfícies.
 * **D**: *Dependency Inversion Principle* o Principi d'inversió de dependència: *Les dependències han d'estar en les abstraccions, no en les concrecions*.
 
-:::tip 
-**Més informació...**
-
-Disposeu de més informació, amb exemples sobre els principis SOLID en el següent article:
-[https://enmilocalfunciona.io/principios-solid/](https://enmilocalfunciona.io/principios-solid/)
-:::
+>
+> **Més informació...**
+>
+> Disposeu de més informació, amb exemples sobre els principis SOLID en el següent article:
+> [https://enmilocalfunciona.io/principios-solid/](https://enmilocalfunciona.io/principios-solid/)
+>
 
 ### SOLID, qualitat del programari i patrons
 
@@ -152,9 +152,9 @@ Observeu que hem modificat la propietat recurs des de l'objecte classe1, i l'hem
 
 ### El patró Factory
 
-:::warning
-Abans de començar amb aquest apartat, és convenient que relitzes l'exercici 1, ja que el següent text utilitza aquest com a punt de partida.
-:::
+>
+> Abans de començar amb aquest apartat, és convenient que relitzes l'exercici 1, ja que el següent text utilitza aquest com a punt de partida.
+>
 
 El patró *Factory Method* és un altre dels patrons de tipus *creacional* relativament senzill, que proporciona una interfície per a la creació d'objectes en una superclasse i permet a les subclasses alterar el tipus d'objectes que es creen.
 
@@ -267,21 +267,21 @@ Nave xwing=xwf.createNave("Luke Skywalker", 9);
 
 Amb això hem *desacoblat* el codi del nostre programa de la construcció dels objectes. D'aquesta manera, no ens importa com s'implemente WXing internament. Únicament, obtenim un objecte d'aquesta classe i l'usem en el nostre codi.
 
-:::important
-**Un patró és una idea, no una *recepta***
-
-Recordeu que un patró de disseny representa una idea, però no és una *recepta* o *plantilla* que hajam d'aplicar tal qual. De fet, si s'adoneu, al diagrama UML on hem explicat el model, les classes concretes no deriven d'una superclasse, sinò d'una interfície. No obstant això, al nostre exercici, hem pogut aplicar el patró fent ús d'una superclasse, en lloc d'una interfície.
-:::
+>
+> **Un patró és una idea, no una *recepta***
+>
+> Recordeu que un patró de disseny representa una idea, però no és una *recepta* o *plantilla* que hajam d'aplicar tal qual. De fet, si s'adoneu, al diagrama UML on hem explicat el model, les classes concretes no deriven d'una superclasse, sinò d'una interfície. No obstant això, al nostre exercici, hem pogut aplicar el patró fent ús d'una superclasse, en lloc d'una interfície.
+>
 
 A la documentació sobre patrons de disseny del lloc web [Refactoring Guru](https://refactoring.guru/es/design-patterns) disposeu d'una gran quantitat de patrons de disseny que podeu llegir i treballar. En el pròxim curs, es trobareu alguns patrons de tipus creacional (com Builder) i estructurals (com Adapter), entre d'altres, però durant aquet curs, potser sense saber que eren patrons de disseny, ja heu treballat amb alguns, com el patró estructural *Decorator*, que haureu utilitzat amb els *Streams*, o el patró de comportament *Iterator*, que ens permet recórrer col·leccions sense importar el tipus de dades subjacents.
 
 ## Referències
 
-:::note
-* Factory Method en refactoring.guru: [https://refactoring.guru/es/design-patterns/factory-method](https://refactoring.guru/es/design-patterns/factory-method)
-* Exemple de Factory Method amb Java en Refactoring Guru: [https://refactoring.guru/es/design-patterns/factory-method/java/example](https://refactoring.guru/es/design-patterns/factory-method/java/example)
-* Artículo sobre el patrón Factory: [https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/patron-factory/](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/patron-factory/)
-:::
+> 
+> * Factory Method en refactoring.guru: [https://refactoring.guru/es/design-patterns/factory-method](https://refactoring.guru/es/design-patterns/factory-method)
+> * Exemple de Factory Method amb Java en Refactoring Guru: [https://refactoring.guru/es/design-patterns/factory-method/java/example](https://refactoring.guru/es/design-patterns/factory-method/java/example)
+> * Artículo sobre el patrón Factory: [https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/patron-factory/](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/patron-factory/)
+>
 
 
 

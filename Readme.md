@@ -10,4 +10,4 @@ Si voleu ampliar coneixements sobre patrons de disseny, la web de [Refactoring G
 
 * [Document sobre patrons de disseny en pdf](PatronsDisseny.pdf)
 * [Document sobre patrons de disseny en Markdown](PatronsDisseny.md)
-* [Exercicis](Exercicis/)
+* [Exercicis](Exercicis/Enunciats.md)
